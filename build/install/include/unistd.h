@@ -106,8 +106,8 @@
  * due to error handling concerns, the in-kernel versions of these
  * functions will usually have slightly different signatures.
  */
-
-
+int printchar(char letter);
+int hello(void);
 /* Required. */
 __DEAD void _exit(int code);
 int execv(const char *prog, char *const *args);
@@ -136,7 +136,6 @@ int ftruncate(int filehandle, off_t size);
 int remove(const char *filename);
 int rename(const char *oldfile, const char *newfile);
 int link(const char *oldfile, const char *newfile);
-int hello(void);
 /* fstat - see sys/stat.h */
 int chdir(const char *path);
 

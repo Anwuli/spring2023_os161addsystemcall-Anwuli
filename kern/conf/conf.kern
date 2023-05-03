@@ -374,11 +374,12 @@ file      vfs/devnull.c
 # (You will probably want to add stuff here while doing the basic system
 # calls assignment.)
 #
-
+file      syscall/printchar.c
+file      syscall/hello.c
 file      syscall/loadelf.c
 file      syscall/runprogram.c
 file      syscall/time_syscalls.c
-file      syscall/hello.c
+#file      syscall/_exit.c
 #
 # Startup and initialization
 #

@@ -83,7 +83,6 @@
 #define SYS_sigprocmask  30
 #define SYS_sigsuspend   31
 #define SYS_sigreturn    32
-#define SYS_hello        41
 //#define SYS_sigaltstack 33
 //                              (resource tracking and usage)
 //#define SYS_wait4      34
@@ -103,6 +102,8 @@
 //#define SYS_ptrace     44
 
 //                              -- File-handle-related --
+#define SYS_printchar    40
+#define SYS_hello        41
 #define SYS_open         45
 #define SYS_pipe         46
 #define SYS_dup          47

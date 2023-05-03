@@ -11,13 +11,8 @@ SUBDIRS=add argtest badcall bigexec bigfile bigfork bigseek bloat conman \
 	malloctest matmult multiexec palin parallelvm poisondisk psort \
 	randcall redirect rmdirtest rmtest \
 	sbrktest schedpong sort sparsefile tail tictac triplehuge \
-	triplemat triplesort usemtest zero
+	triplemat triplesort usemtest zero hellotest printchartest
 
-PROG=hellotest
-SRCS=hello.c
-BINDIR=/testbin
-
-.include "$(TOP)/mk/os161.prog.mk"
 # But not:
 #    userthreads    (no support in kernel API in base system)
 
